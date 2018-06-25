@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirebaseMemo</string>
+    <string name="add_btn_name">Add</string>
+</resources>

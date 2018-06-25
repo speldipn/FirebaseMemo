@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460356689178",
+    "firebase_url": "https://fbmemo-444b2.firebaseio.com",
+    "project_id": "fbmemo-444b2",
+    "storage_bucket": "fbmemo-444b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460356689178:android:9b83ef8407fddcda",
+        "android_client_info": {
+          "package_name": "org.androidtown.firebasememo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460356689178-bdfinbj547io2iqhv37r8d618td4tqua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.androidtown.firebasememo",
+            "certificate_hash": "92a3c8e15b5ced6898af453b79ff64fa48acfbd3"
+          }
+        },
+        {
+          "client_id": "460356689178-m4qum2f2qsuni5doll1bmerc8jppn6fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6zM5MulGN9n8t9FJXszSKMD-34U_WKZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460356689178-m4qum2f2qsuni5doll1bmerc8jppn6fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
