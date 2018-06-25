@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
   FirebaseDatabase database;
   DatabaseReference memoRef;
 
+  @BindView(R.id.et_memo)
   EditText etMemo;
+  @BindView(R.id.recyclerView)
   RecyclerView recyclerView;
 
   CustomAdapter customAdapter;
@@ -38,9 +41,7 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    etMemo = findViewById(R.id.et_memo);
-    recyclerView = findViewById(R.id.recyclerView);
-
+    ButterKnife.bind(this);
     initDB();
     setAdpater();
     setEvent();
